@@ -1,0 +1,11 @@
+#ifndef _MYLIST_H_
+#define _MYLIST_H_
+#include "my.h"
+
+typedef struct s_node
+{
+  struct s_node *next;
+  void          *elem;
+}               t_node;
+
+//function delcarations
