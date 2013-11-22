@@ -1,0 +1,30 @@
+/*
+ * Test file for assignemnt 3 (Linked List)
+ */
+
+#include "../lib/mylist.h"
+
+int main()
+{
+  t_node *new_node("hello",);
+  t_node *new_node(NULL,);
+  t_node *new_node("hi",NULL);
+
+  void add_node("hi",head);
+  void add_node(NULL,head); //adds nothing
+  void add_node("hi",NULL); // do nothing
+  
+  void add_elem("test",head);
+  void add_elem(NULL,head); // do nothing
+  void add_elem("test",NULL); //do ...?
+
+  void append(node,);
+  void append(NULL,);
+  void append(,NULL);
+  
+  void add_node_at(node,head,0); //add at head
+  void add_node_at(node,head,-5); //add at head
+  void add_node_at(node,head,4); 
+  
+  void *remove_node(head);
+  void *remove_node(U
